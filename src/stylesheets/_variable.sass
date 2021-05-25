@@ -1,0 +1,36 @@
+@import '~vuetify/src/styles/styles.sass'
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,500;1,400&family=Noto+Sans+JP:wght@300&display=swap')
+
+$body-font-family: 'Noto Sans JP', sans-serif
+$typoOptions: display-4 display-3 display-2 display-1 headline title subtitle-1 subtitle-2 body-1 body-2 caption overline text-h6
+
+%font-default
+  font-family: $body-font-family, sans-serif !important
+
+@mixin md-typography
+  @each $typoOption in $typoOptions 
+    .#{$typoOption} 
+      @extend %font-default
+
+.v-application
+  @extend %font-default
+  @include md-typography
+
+.v-application
+  .newsreader
+    font-family: 'Newsreader', serif !important
+  .roboto
+    font-family: 'Roboto', sans-serif !important
+  .font-weight-extra-bold
+    font-weight: 800
+  a
+    text-decoration: none
+    box-shadow: inset 0 -2px 0 0 #e0dede
+    transition: all 400ms ease, color 400ms ease
+    &:hover
+      box-shadow: inset 0 -2px 0 0 #1d62ff
+      color: #1d62ff
+  .logo
+    box-shadow: none
+    &:hover
+      box-shadow: none
