@@ -1,8 +1,7 @@
 module.exports = {
-  publicPath: '/seolah_sora/',
+  publicPath: '/seolah_sora',
   outputDir: 'docs',
-  devServer: {
-    disableHostCheck: true,
-  },
+  filenameHashing: false,
+  productionSourceMap: false,
   transpileDependencies: ['vuetify'],
 }
