@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/seolah-kim',
+  publicPath: '/seolah_sora',
   outputDir: 'docs',
   devServer: {
     disableHostCheck: true,
