@@ -3,8 +3,8 @@
     class="justify-center d-block l-footer grey"
   >
     <div class="d-inline-block mb-8">
-      <a
-        href="/"
+      <router-link
+        to="/"
         class="logo"
       >
         <v-img
@@ -13,7 +13,7 @@
           class="shrink"
           width="146"
         />
-      </a>
+      </router-link>
     </div>
     <div>
       <social-media />

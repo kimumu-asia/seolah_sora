@@ -6,8 +6,8 @@
     flat
   >
     <v-slide-x-transition>
-      <a
-        href="/"
+      <router-link
+        to="/"
         class="logo"
       >
         <v-img
@@ -17,7 +17,7 @@
           cover
           width="120"
         />
-      </a>
+      </router-link>
     </v-slide-x-transition>
 
     <v-spacer />
@@ -25,14 +25,14 @@
     <v-btn
       elevation="0"
       class="ml-3 transparent"
-      href="/"
+      to="/"
     >
       Home
     </v-btn>
     <v-btn
       elevation="0"
       class="ml-3 transparent"
-      href="/about"
+      to="/about"
     >
       About
     </v-btn>

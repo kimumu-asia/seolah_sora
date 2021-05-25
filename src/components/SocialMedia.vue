@@ -6,10 +6,10 @@
         class="mb-2"
     >
         <a
-        :href="item.link"
-        target="_blank"
-        class="roboto font-weight-bold"
-        color="text--black body-2"
+          :href="item.link"
+          target="_blank"
+          class="roboto font-weight-bold"
+          color="text--black body-2"
         >
             {{ item.name }}
         </a>
