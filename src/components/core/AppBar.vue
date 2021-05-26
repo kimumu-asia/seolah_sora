@@ -25,6 +25,8 @@
     <v-btn
       elevation="0"
       class="ml-3 transparent"
+      exact-active-class="menu--active"
+      tile
       to="/"
     >
       Home
@@ -32,6 +34,8 @@
     <v-btn
       elevation="0"
       class="ml-3 transparent"
+      exact-active-class="menu--active"
+      tile
       to="/about"
     >
       About
@@ -61,3 +65,10 @@
     },
   }
 </script>
+
+<style lang="sass" scoped>
+.menu--active
+  box-shadow: inset 0 -2px 0 0 #1d62ff !important
+  &::before
+    opacity: 0 !important
+</style>
