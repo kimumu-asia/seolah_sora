@@ -12,6 +12,11 @@
   export default {
     name: 'CoreView',
 
+    metaInfo: {
+      title: 'Seolah Kim | Front-end Developer',
+      description: 'Front-end Developer',
+    },
+
     components: {
       Arine: () => import('@/components/Arine'),
       Minkabu: () => import('@/components/Minkabu'),

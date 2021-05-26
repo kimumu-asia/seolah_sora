@@ -8,6 +8,11 @@
   export default {
     name: 'CoreAbout',
 
+    metaInfo: {
+      title: 'Seolah Kim | Front-end Developer',
+      description: 'Front-end Developer',
+    },
+
     components: {
       about: () => import('@/components/AboutMe'),
     },
